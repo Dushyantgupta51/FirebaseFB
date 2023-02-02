@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879995019706",
+    "project_id": "dumy-31aea",
+    "storage_bucket": "dumy-31aea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879995019706:android:efe3d5f7f4cf0cee13fd83",
+        "android_client_info": {
+          "package_name": "com.pizone.dumy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879995019706-22o695apr3r8kf9a9ic0r4991c32u87r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqz2DVdSC0GQoFWeE8Gi4bdrdVHf7sn7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879995019706-22o695apr3r8kf9a9ic0r4991c32u87r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
