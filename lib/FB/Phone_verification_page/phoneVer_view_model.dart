@@ -1,11 +1,12 @@
 // ignore_for_file: file_names
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebasepractise/Johannes_Milke/Phone_verification_page/enterCode_view.dart';
-import 'package:firebasepractise/Johannes_Milke/Phone_verification_page/phoneVer_view.dart';
-import 'package:firebasepractise/app/routers/routes.router.dart';
+import 'package:firebasepractise/FB/Phone_verification_page/phoneVer_view.dart';
+import 'package:firebasepractise/routers/routes.router.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+
+import 'enterCode_view.dart';
 
 class PhoneViewModel extends BaseViewModel {
   var code = "";

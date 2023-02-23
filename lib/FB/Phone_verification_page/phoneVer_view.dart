@@ -1,5 +1,5 @@
 // ignore_for_file: file_names
-import 'package:firebasepractise/Johannes_Milke/Phone_verification_page/phoneVer_view_model.dart';
+import 'package:firebasepractise/FB/Phone_verification_page/phoneVer_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 

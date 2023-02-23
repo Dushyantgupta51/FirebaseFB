@@ -3,10 +3,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:stacked_services/stacked_services.dart';
-
-import '../../app/routers/routes.router.dart';
-import 'Chat_room.dart';
 
 class Select extends StatefulWidget {
   const Select({super.key});
@@ -42,7 +38,6 @@ class _SelectState extends State<Select> {
         .doc(FirebaseAuth.instance.currentUser!.uid)
         .set({'email': FirebaseAuth.instance.currentUser!.email}).then(
       (value) {
-        print(FirebaseAuth.instance.currentUser);
       },
     );
   }

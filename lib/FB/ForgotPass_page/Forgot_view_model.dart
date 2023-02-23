@@ -4,7 +4,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
-import '../../app/routers/routes.router.dart';
+import '../../routers/routes.router.dart';
+
 
 class ForgotViewModel extends BaseViewModel {
   final formKey = GlobalKey<FormState>();

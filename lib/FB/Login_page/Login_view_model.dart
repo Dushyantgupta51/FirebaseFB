@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:stacked/stacked.dart';
 
-import '../../app/routers/routes.router.dart';
+import '../../routers/routes.router.dart';
 
 class LoginViewModel extends BaseViewModel {
   final formKey = GlobalKey<FormState>();

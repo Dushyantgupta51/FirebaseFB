@@ -4,7 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import '../../app/routers/routes.router.dart';
+
+import '../../routers/routes.router.dart';
 
 final user = FirebaseAuth.instance.currentUser!;
 
@@ -27,11 +28,14 @@ class SignUpViewModel extends BaseViewModel {
           .createUserWithEmailAndPassword(
         email: emailController.text.trim(),
         password: passwordController.text.trim(),
-      ).then((value) async {
+      )
+          .then((value) async {
         await FirebaseFirestore.instance
             .collection('users')
             .doc(FirebaseAuth.instance.currentUser!.uid)
-            .set({'email': FirebaseAuth.instance.currentUser!.email}).then(
+            .set({
+          'email': FirebaseAuth.instance.currentUser!.email
+        }).then(
           (value) {
             print(FirebaseAuth.instance.currentUser);
           },

@@ -5,19 +5,14 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:firebasepractise/Johannes_Milke/ForgotPass_page/Forgot_view.dart'
-    as _i4;
-import 'package:firebasepractise/Johannes_Milke/Home_page/Chat_room.dart'
-    as _i7;
-import 'package:firebasepractise/Johannes_Milke/Home_page/Home_view.dart'
-    as _i3;
-import 'package:firebasepractise/Johannes_Milke/Home_page/Select.dart' as _i8;
-import 'package:firebasepractise/Johannes_Milke/Login_page/Login_view.dart'
-    as _i2;
-import 'package:firebasepractise/Johannes_Milke/Phone_verification_page/phoneVer_view.dart'
+import 'package:firebasepractise/FB/ForgotPass_page/Forgot_view.dart' as _i4;
+import 'package:firebasepractise/FB/Home_page/Chat_room.dart' as _i7;
+import 'package:firebasepractise/FB/Home_page/Home_view.dart' as _i3;
+import 'package:firebasepractise/FB/Home_page/Select.dart' as _i8;
+import 'package:firebasepractise/FB/Login_page/Login_view.dart' as _i2;
+import 'package:firebasepractise/FB/Phone_verification_page/phoneVer_view.dart'
     as _i6;
-import 'package:firebasepractise/Johannes_Milke/SignUp_page/SignUp_view.dart'
-    as _i5;
+import 'package:firebasepractise/FB/SignUp_page/SignUp_view.dart' as _i5;
 import 'package:flutter/material.dart' as _i9;
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart' as _i1;
@@ -36,7 +31,7 @@ class Routes {
 
   static const chatHere = '/chat-here';
 
-  static const select = '/';
+  static const select = '/Select';
 
   static const all = <String>{
     loginScreen,

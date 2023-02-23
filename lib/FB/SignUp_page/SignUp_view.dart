@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import '../../app/routers/routes.router.dart';
+import '../../routers/routes.router.dart';
 import 'SignUp_view_model.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -38,7 +38,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 const Text(
                   "What's your email?",
-                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      fontSize: 28, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(
                   height: 40,
@@ -51,37 +52,38 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         controller: model.emailController,
                         cursorColor: Colors.black,
                         textInputAction: TextInputAction.next,
-                         validator: (value) {
+                        validator: (value) {
                           if (value!.isEmpty) {
                             return "Enter correct Mobile number of email";
                           } else {
                             return null;
                           }
                         },
-                        decoration: const InputDecoration(labelText: 'Email'),
+                        decoration:
+                            const InputDecoration(labelText: 'Email'),
                       ),
                       TextFormField(
-                  controller: model.passwordController,
-                  cursorColor: Colors.black,
-                  textInputAction: TextInputAction.next,
-                   validator: (value) {
+                        controller: model.passwordController,
+                        cursorColor: Colors.black,
+                        textInputAction: TextInputAction.next,
+                        validator: (value) {
                           if (value!.isEmpty) {
                             return "Enter correct Password";
                           } else {
                             return null;
                           }
                         },
-                  decoration: const InputDecoration(labelText: 'Password'),
-                  obscureText: true,
-
-                ),
+                        decoration: const InputDecoration(
+                            labelText: 'Password'),
+                        obscureText: true,
+                      ),
                     ],
                   ),
                 ),
                 const SizedBox(
                   height: 4,
                 ),
-                
+
                 const SizedBox(
                   height: 20,
                 ),
@@ -107,8 +109,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Padding(
                   padding: const EdgeInsets.only(left: 93.0),
                   child: GestureDetector(
-                    onTap: () =>
-                         Navigator.pushNamed(context, Routes.loginScreen),
+                    onTap: () => Navigator.pushNamed(
+                        context, Routes.loginScreen),
                     child: Text(
                       'Already have an account',
                       style: TextStyle(

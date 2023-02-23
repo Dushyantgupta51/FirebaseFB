@@ -1,9 +1,10 @@
 // ignore_for_file: file_names
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebasepractise/Johannes_Milke/Home_page/Home_viewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+
+import 'Home_viewModel.dart';
 
 class HomePage extends StatelessWidget {
  

@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:firebasepractise/Johannes_Milke/ForgotPass_page/Forgot_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
-import '../../app/routers/routes.router.dart';
+import '../../routers/routes.router.dart';
+import 'Forgot_view_model.dart';
 
 class ForgotPass extends StatelessWidget {
   const ForgotPass({super.key});
