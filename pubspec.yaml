@@ -52,6 +52,8 @@ dependencies:
   firebase_dynamic_links: ^5.0.14
   url_launcher: ^6.1.9
   get: ^4.6.5
+  firebase_remote_config: ^3.0.13
+  hexcolor: ^3.0.1
 
 dev_dependencies:
   flutter_test:
